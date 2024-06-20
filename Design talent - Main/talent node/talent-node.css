@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css2?family=Tiny5&display=swap');
+* {
+    font-family: "Tiny5";
+    font-size: 25px;
+}
+
+input {
+    text-align: center;
+
+    border: hidden;
+    background-color: transparent;
+
+    width: 103px;
+    height: 104px;
+
+    color: #fff
+}
+
+#talent-node {
+    background-color :rgba(0, 255, 255, 20%);;
+    z-index: 1;
+
+    border: 3px solid rgba(0, 255, 255, 60%);
+    border-radius: 100%;
+    width: 100px;
+    height: 100px;
+
+    font-size: 25px;
+
+    content: '';
+    box-shadow: 0px 0px 30px 5px rgba(0, 255, 255, 50%);
+
+    overflow: hidden;
+
+    color: #fff;
+
+    position: fixed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    transition: 0.3s;
+
+    backdrop-filter: 0;
+}
+
+#talent-node:hover {
+    width: 105px;
+    height: 105px;
+
+    font-size: 28px;
+
+    background-color: rgba(0, 255, 255, 50%);
+}
+
